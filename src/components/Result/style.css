@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.reset-quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+}
