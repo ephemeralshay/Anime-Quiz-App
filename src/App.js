@@ -1,6 +1,6 @@
 import { Welcome } from './components/Welcome/Welcome';
 import { Instruction } from './components/Instruction';
-import { Question } from './components/Question';
+import { Quiz } from './components/Quiz';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
             <Instruction />
           </Route>
           <Route exact path="/quiz">
-            <Question />
+            <Quiz />
           </Route>
         </Switch>
       </>

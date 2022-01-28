@@ -89,7 +89,6 @@ var questions = [
             { answerText: 'Engine', isCorrect: false },
         ],
     },
-
 ];
 
 export default questions;

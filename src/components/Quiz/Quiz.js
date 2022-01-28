@@ -2,11 +2,12 @@ import { useState } from "react";
 import questions from "../../utils/questionBank";
 import { Result } from "../Result";
 import "./style.css";
-export function Question() {
+export function Quiz() {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(0);
+
     const handleAnswerOptionClick = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1);
