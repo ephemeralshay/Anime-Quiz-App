@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./style.css";
 export function Welcome() {
-
     return (
         <div className="welcome">
             <h1>Welcome to the Anime Quiz!</h1>

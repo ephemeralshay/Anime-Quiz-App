@@ -1,10 +1,12 @@
 import { useHistory } from "react-router-dom";
 import "./style.css";
+import { reset_questions } from "../../utils/questionBank";
 export function Result(props) {
 
     const history = useHistory();
     const handleReset = (e) => {
         e.preventDefault();
+        reset_questions();
         history.push('/');
     };
 
