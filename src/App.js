@@ -1,7 +1,7 @@
 import { Welcome } from './components/Welcome/Welcome';
 import { Instruction } from './components/Instruction';
 import { Quiz } from './components/Quiz';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
